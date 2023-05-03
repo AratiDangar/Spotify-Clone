@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 231, 226);
+    width: auto;
+}
+nav{
+    font-family: 'Abril Fatface', cursive;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    font-size: 21px;
+    
+   
+}
+nav ul li {
+    padding: 0 12px; color: white;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.brand img{
+    padding: 0 8px;
+    
+         width: 44px;
+
+}
+.brand{
+
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height:80vh ;
+    background-color: black;
+    font-family: 'Lobster', cursive;
+
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('as.jpg');
+    background-repeat: no-repeat;
+background-position: center;
+background-size: 805px;
+
+}
+/*.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}*/
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    
+}
+/*
+.songitemscontainer{
+    margin-top: 74px;
+}*/
+
+.ma{
+    padding-top: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.que h1{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+.s{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.b{
+
+padding-top: 77px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(236, 231, 226);
+}
+.spinner{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinbtn{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: uppercase;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    border: 4px solid rgba(0,0,0,0.75);
+    cursor: pointer;
+    user-select: none;
+
+}
+.spinbtn::before{
+    content: '';
+    position: absolute;
+    top: -28px;
+    width: 20px;
+    height: 30px;
+    background: #fff;
+    clip-path: polygon(50% 0%,15% 100%,85% 100%);
+
+}
+.wheel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #333, 0 0 0 15px #fff,0 0 0 18px #111;
+    transition: transform 5s ease-in-out;
+}
+
+  .wheel .mood{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: var(--clr);
+    transform-origin: bottom right;
+    transform: rotate(calc(45deg * var(--i)));
+    clip-path: polygon( 0 0, 55% 0, 100% 100%, 0 56%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+
+
+}
+.wheel .mood span{
+    position: relative;
+    transform: rotate(45deg);
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 3px 5px 2px rgba(0,0,0,0.15);
+}
+.wheel .mood span::after{
+    position: absolute;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+@media screen and (max-width:676px){
+
+
+    nav ul{
+           width: 620px;
+           
+    }
+    body{
+        width: fit-content;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

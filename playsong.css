@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&family=Teko:wght@300&display=swap');
+
+
+.song {
+         
+    padding-top: 50px;
+
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+.songitems{
+    padding-left: 250px;
+}
+#bar{
+    cursor: pointer;
+}
+.songlist{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    width: 481px;
+}
+.songlist img{
+      width: 43px;
+      margin:  0 23px;
+      border-radius: 13px;
+}
+.songlistplay a{
+    color: black;
+}
+.timsetap{
+    margin: 0 23px;
+    
+}
+.timestap i{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
