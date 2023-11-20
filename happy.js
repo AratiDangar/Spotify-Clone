@@ -122,6 +122,7 @@ function random_bg_color(){
 
     let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
     document.body.style.background = gradient;
+    document.body.style.backgroundRepeat = "no-repeat" ;
 }
 function reset(){
     curr_time.textContent = "00:00";

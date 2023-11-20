@@ -181,6 +181,9 @@ padding-top: 77px;
 
 
 }
+.que{
+    padding-top: 50px;
+}
 .wheel .mood span{
     position: relative;
     transform: rotate(45deg);
@@ -195,21 +198,56 @@ padding-top: 77px;
     font-weight: 500;
 }
 
-@media screen and (max-width:676px){
+.disco{
+    display: flex;
+    gap: 20px;
+    padding-top: 100px;
+    justify-items: center;
+    align-items: center;
+}
+@media screen and (max-width:691px){
 
 
     nav ul{
-           width: 620px;
+           width: fit-content;
+           padding: 4px;
            
     }
     body{
         width: fit-content;
     }
+    .container{
+        background-size: contain;
+       height: 800px;
+    }
+    .songlist{
+        text-align: center;
+    }
+    .que{
+        padding-top: 100px;
+    }
+    .disco{
+        
+        gap: 20px;
+        padding-right: 0;
+        font-size: large;
+        flex-direction: column;
+        margin: 60px;
+    }
     
 }
-
-
-
+@media screen and(min-width:731px) {
+    .container{
+        background-size: contain;
+       height: 600px;
+    }
+    nav ul{
+        width: 100%;
+        padding: 4px;
+        
+ }
+    
+}
 
 
 

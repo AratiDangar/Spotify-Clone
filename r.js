@@ -94,7 +94,9 @@ function random_bg_color(){
     let Color2 = populate('#');
     var angle = 'to right';
 
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
+    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ") ";
+    
+    
     document.body.style.background = gradient;
 }
 function reset(){

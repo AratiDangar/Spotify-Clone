@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&family=Teko:wght@300&display=swap');
 
 
+body{
+    background-repeat: no-repeat;
+}
+.player{
+
+    position: relative;
+    top: 200px;
+}
 .song {
          
     padding-top: 50px;
@@ -60,4 +68,9 @@
 .songinfo img{
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+
+@media screen and (max-width:629px) {
+   
+    
 }
