@@ -231,6 +231,7 @@ background-size: 805px;
     }
     .que{
         padding-top: 120px;
+        
     }
     .disco{
         
@@ -266,11 +267,15 @@ background-size: 805px;
         display: block;
         z-index: 1;
         position: absolute;
-        top: -32px;
+        top: 5px;
         left: 10px;
     
     }
-   
+    
+   .s{
+    
+    position: relative;
+   }
     nav ul {
         display: flex;
         flex-direction: column;
@@ -279,14 +284,14 @@ background-size: 805px;
         height: 300px;
         background-color: white;
         position: absolute;
-        top: -45px;
+        top: -40px;
         left: 0;
         transform: translatey(-100%);
         transition: transform 0.3s ease-in-out;
         
     }
     nav ul.active {
-        top: -44px;
+        top: 0;
         transform: translatey(0);
         
     }
@@ -337,6 +342,11 @@ background-size: 805px;
         display: block;
      }
 }
-@media screen and (max-width:5600px) {
-    
-}
+@media screen and (max-width:770px) {
+    .que{
+       
+        z-index: -1;
+    }
+   .s{
+    z-index: -1;}
+  }

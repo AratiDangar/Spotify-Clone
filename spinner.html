@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyMusic - Spotify Clone</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Styles/nav.css">
 </head>
-<body>
+<body style="overflow: hidden;">
+    <div><img src="./images/musicLogo.png" alt="logo" id="logo">
 <nav>
-    <ul>
-        <li class="brand"><img src="spotify logo.png" alt="Spotify"><span>Spotify</span></li>
+    <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <ul id="nav-links">
+        
         <li><a href="index.html">Home</a></li>
         <li><a href="playlist.html">PlayList</a></li>
         <li><a href="spinner.html">Spinner Wheel</a></li>
@@ -21,9 +26,10 @@
 
     </ul>
 </nav>
-<div class="que"><h1>What's You Mood?
-        just spin it!
-    </h1></div> 
+<h1 class="que">What's You Mood?
+    just spin it!
+</h1>
+ 
 
 <div class="s">
     
@@ -44,7 +50,7 @@
     
     </div>
 </div>
-</div></div>
+</div></div></div>
 <script>
 
     let wheel=document.querySelector('.wheel');
