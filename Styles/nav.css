@@ -21,6 +21,7 @@ body{
 nav{
     font-family: 'Abril Fatface', cursive;
     position: relative;
+    z-index: 1000;
 
 }
 
@@ -28,6 +29,7 @@ nav{
     display: none;
     font-size: 24px;
     cursor: pointer;
+    z-index: 1100;
 }
 nav ul{
     display: flex;
@@ -347,6 +349,6 @@ background-size: 805px;
        
         z-index: -1;
     }
-   .s{
-    z-index: -1;}
+   /* .s{
+    z-index: -1;} */
   }

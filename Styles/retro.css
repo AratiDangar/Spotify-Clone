@@ -6,9 +6,12 @@ body {
     }
     
 
-    .songCard{
+     .songCard{
       height: 100vh;
-    }
+    
+     }
+   
+    
     .player{
       
       display: flex;
@@ -216,10 +219,7 @@ body {
 
 
     @media screen and (max-width:426px) {
-   .player{
-    top:138px;
-    
-   }
+  
     
   .wrapper {
       width: 237px;
@@ -238,8 +238,15 @@ body {
   }
 
   @media screen and (max-width:770px) {
-    .player{
+    /* .player{
      
      z-index: -1;
-    }
+    } */
+
+    .player{
+      top:138px;
+      
+     }
+     
+    
   }

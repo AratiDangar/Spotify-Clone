@@ -258,7 +258,7 @@ background-size: 805px;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .container{
         margin-top: 40px;
     }
@@ -288,6 +288,7 @@ background-size: 805px;
     nav ul.active {
         top: -44px;
         transform: translatey(0);
+        margin-bottom: 300px;
         
     }
     nav ul li {
